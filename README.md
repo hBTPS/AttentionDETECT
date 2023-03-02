@@ -23,11 +23,28 @@ Target Detection Network for SAR Images Based on Semi-Supervised Learning and At
 </ol>
 
 # Getting Started
-**FILE LISTING:**
+### FILE LISTING:
+
+Code and documents:
 - **Poster_HadrienBontemps.pptx :** a summary of the studied method in the form of a research poster
 - **RapportEcrit_HadrienBontemps.pdf:** an academic report elaborating on an implementation of the method in Pytorch
 - **AttentionDETECT.ipynb:** a Jupyter Notebook with the main code
 
+Datasets:
+- **MiniSAR_Selection:** 7 images selected for training, 2 for test
+- **MiniSAR_SubImages:** 588 training sub-images, 183 test sub-images
+
+The following folders were preliminary steps towards the creation of the final datasets and can be ignored: 
+- **MiniSAR_GFF:** original SAR dataset downloaded from https://www.sandia.gov/radar/pathfinder-radar-isr-and-synthetic-aperture-radar-sar-systems/complex-data/
+- **Matlab_GFF_Reader:** use the file "gffquickview.m" to open GFF images, and "main.m" to convert and store them to JPG
+- **MiniSAR_JPG:** converted GFF MiniSAR images through the "main.m" file of the Matlab_GFF_Reader folder
+
+### REQUIREMENTS
+
+Before running AttentionDETECT.ipynb, please install the dependencies listed in the "requirements.txt" file:
+```
+pip install -r requirements.txt
+```
 
 # Introduction
 
