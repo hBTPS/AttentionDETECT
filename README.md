@@ -1,9 +1,32 @@
-# AttentionDETECT
-**Reference paper:**
+### Reference paper
 
 [Wei, D.; Du, Y.; Du, L.; Li, L.   
 Target Detection Network for SAR Images Based on Semi-Supervised Learning and Attention Mechanism.  
 *Remote Sens.* 2021, 13, 2686.](https://www.mdpi.com/2072-4292/13/14/2686)
+
+# Table of Contents
+[Getting Started](#getting-started)
+
+<ol>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#description-of-the-method">Description of the method</a></li>
+  <li><a href="#network-architecture">Network architecture</a></li>
+  <li>
+    <a href="#module-breakdown">Module breakdown</a>
+    <ol>
+      <li><a href="#feature-extraction-module">Feature Extraction Module</a></li>
+      <li><a href="#attention-module">Attention Module</a></li>
+      <li><a href="#scene-recognition-module">Scene Recognition Module</a></li>
+      <li><a href="#detection-module">Detection Module</a></li>
+    </ol>
+  </li>
+</ol>
+
+# Getting Started
+**FILE LISTING:**
+- **Poster_HadrienBontemps.pptx :** a summary of the studied method in the form of a research poster
+- **RapportEcrit_HadrienBontemps.pdf:** an academic report elaborating on an implementation of the method in Pytorch
+- **AttentionDETECT.ipynb:** a Jupyter Notebook with the main code
 
 
 # Introduction
