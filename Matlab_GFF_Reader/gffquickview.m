@@ -19,7 +19,7 @@
 %
 clear all;
 close all;
-pathname = 'MiniSAR';
+pathname = '..\MiniSAR_GFF';
 [Image, Header, fname] = load_gff_1_8b('defaultPath', pathname);
 if Header.BytesPerPixel>1,
 im_qp = sqrt(abs(Image));
